@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario de Solicitud</title>
+    <link rel="stylesheet" type="text/css" href="/styles.css">
+</head>
+<body>
+    <h1>Formulario de Solicitud</h1>
+    <form action="/procesar" method="POST" enctype="multipart/form-data">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+        <input type="date" id="fechaNacimiento" name="fechaNacimiento" required><br><br>
+
+        <label for="rut">RUT:</label>
+        <input type="text" id="rut" name="rut" required><br><br>
+
+        <label for="direccion">Dirección:</label>
+        <input type="text" id="direccion" name="direccion" required><br><br>
+
+        <label for="terrenoVacio">¿El terreno está vacío?</label>
+        <input type="checkbox" id="terrenoVacio" name="terrenoVacio"><br><br>
+
+        <label for="metrosCuadrados">Metros Cuadrados:</label>
+        <input type="number" id="metrosCuadrados" name="metrosCuadrados" required><br><br>
+
+        <label for="plano">Subir Planos (PNG o JPG):</label>
+        <input type="file" id="plano" name="plano" accept=".png, .jpg" required><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

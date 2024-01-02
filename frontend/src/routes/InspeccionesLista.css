@@ -1,0 +1,123 @@
+.cuerpo {
+  padding: 1rem;
+}
+
+.ti {
+  margin-bottom: 1rem;
+  font-weight: 700;
+  color: white;
+}
+
+.cont {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 1rem;
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.subcont {
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.todo {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.5rem;
+}
+
+.bloques {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 1rem;
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  padding: 1rem;
+  border-radius: 0.5rem; /* Ajustado el radio del borde */
+  border-width: 1px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.bloque {
+  font-weight: bold;
+  background-color: #BFDBFE;
+  border-radius: 0.5rem; /* Ajustado el radio del borde */
+  padding: 1rem;
+}
+
+.ins {
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.tit2 {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.5rem;
+  padding: 1rem;
+  border-radius: 0.5rem; /* Ajustado el radio del borde */
+  border-width: 1px;
+  background-color: #BFDBFE;
+}
+
+.bloques2 {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 1rem;
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  padding: 1rem;
+  border-radius: 0.5rem; /* Ajustado el radio del borde */
+  border-width: 1px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.bloque2 {
+  font-weight: bold;
+  background-color: #BFDBFE;
+  border-radius: 0.5rem; /* Ajustado el radio del borde */
+  padding: 1rem;
+}
+
+.lu {
+  display: flex;
+  margin-top: 0.5rem;
+  color: #6a7c94
+}
+
+.de {
+  display: flex;
+  margin-top: 0.5rem;
+}
+
+.lugar,
+.fecha {
+  color: #6a7c94
+}
+
+.op {
+  background-color: #6a7c94;
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  padding: 0.5rem 1rem; /* Ajusta el relleno según tus necesidades */
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 0.5rem; /* Ajustado el radio del borde */
+  transition: background-color 0.3s ease;
+  width: 293px;
+}
+
+.op:hover {
+  background-color: #4e6382; /* Cambia el color de fondo al pasar el ratón según tus preferencias */
+}

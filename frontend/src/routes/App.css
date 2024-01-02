@@ -1,0 +1,30 @@
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 160px;
+}
+
+.titulo{
+  font-size: 70px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+}
+
+.parrafo{
+  font-size: 25px;
+  color: white;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link{
+  font-size: 25px;
+  color: lightblue;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

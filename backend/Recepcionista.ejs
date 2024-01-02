@@ -1,0 +1,25 @@
+<!-- recepcionista.ejs -->
+<h1>Panel del Recepcionista</h1>
+<h2>Solicitudes Pendientes</h2>
+<ul>
+    <% for (let i = 0; i < solicitudes.length; i++) { %>
+    <li>
+        Nombre: <%= solicitudes[i].nombre %>, Email: <%= solicitudes[i].email %>
+        Estado: <%= solicitudes[i].estado %>
+        Retroalimentación: <%= solicitudes[i].retroalimentacion %>
+        <% if (solicitudes[i].plano) { %>
+            <img src="/uploads/<%= solicitudes[i].plano %>" alt="Imagen Solicitud">
+        <% } %>
+        <form action="/aprobar-solicitud/<%= i %>" method="post">
+            <label for="retroalimentacion">Retroalimentación:</label>
+            <input type="text" id="retroalimentacion" name="retroalimentacion" required>
+            <input type="submit" value="Aprobar">
+        </form>
+        <form action="/rechazar-solicitud/<%= i %>" method="post">
+            <label for="retroalimentacion">Retroalimentación:</label>
+            <input type="text" id="retroalimentacion" name="retroalimentacion" required>
+            <input type="submit" value="Rechazar">
+        </form>
+    </li>
+    <% } %>
+</ul>

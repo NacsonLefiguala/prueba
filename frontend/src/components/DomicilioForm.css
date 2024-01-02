@@ -1,0 +1,83 @@
+.form{
+    display: flex; 
+    padding: 1.5rem; 
+    flex-direction: column; 
+    align-items: center; 
+    gap: 1rem; 
+    background-color: #BFDBFE;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 0.375rem;
+    margin-top: 20px;
+}
+
+.ciudad{
+color: #000;
+}
+
+.c-input{
+    padding-left: 1rem;
+    padding-right: 1rem; 
+    background-color: #F9FAFB; 
+    width: 100%; 
+    height: 2.5rem; 
+    border-radius: 0.25rem; 
+    border-width: 1px; 
+}
+
+.e-ciudad{
+    margin-top: 0.25rem; 
+    color: #EF4444; 
+    font-size: 0.875rem;
+    line-height: 1.25rem; 
+}
+
+.calle{
+    color: #000;
+}
+
+.ca-input{
+    padding-left: 1rem;
+    padding-right: 1rem; 
+    background-color: #F9FAFB; 
+    width: 100%; 
+    height: 2.5rem; 
+    border-radius: 0.25rem; 
+    border-width: 1px; 
+}
+
+.ca-er{
+    margin-top: 0.25rem; 
+    color: #EF4444; 
+    font-size: 0.875rem;
+    line-height: 1.25rem; 
+}
+
+.div-button{
+    display: flex; 
+    gap: 1rem; 
+}
+
+.button{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; 
+    padding-left: 1rem;
+    padding-right: 1rem; 
+    background-color: #3B82F6; 
+    color: #ffffff; 
+    font-weight: 700; 
+    border-radius: 0.25rem; 
+}
+
+.registrar{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; 
+    padding-left: 1rem;
+    padding-right: 1rem; 
+    background-color: #3B82F6; 
+    color: #ffffff; 
+    font-weight: 700; 
+    border-radius: 0.25rem; 
+    width: 100px;
+    height: 50px;
+}
